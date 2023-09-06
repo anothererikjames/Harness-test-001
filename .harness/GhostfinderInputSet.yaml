@@ -1,0 +1,15 @@
+inputSet:
+  pipeline:
+    identifier: GhostFinder
+    properties:
+      ci:
+        codebase:
+          build:
+            spec:
+              branch: main
+            type: branch
+    object Object: properties.ci.codebase
+  name: GhostfinderInputSet
+  identifier: GhostfinderInputSet
+  orgIdentifier: default
+  projectIdentifier: default_project
